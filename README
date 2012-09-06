@@ -1,0 +1,10 @@
+# PyroCMS Related Posts Plugin
+
+The PyroCMS Related Posts plugin allows you to show a list of blog post headlines that use specified keywords. 
+
+The idea behind this is that you can effortlessly add a small lex-based line of code to your pages to show posts that are tagged with related keywords.
+
+So for example, if you wanted to show the 5 latest posts that use the keywords "news" and "technology", you would do this:
+
+{{ related_posts:posts keywords="news,technology" maximum_posts="5" maximum_length="100" }}
+
